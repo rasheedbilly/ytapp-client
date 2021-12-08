@@ -12,7 +12,7 @@ function App(props) {
     const history = useHistory();
     const CLIENT_ID = credentials.spotify_API_ID;
     const SPOTIFY_AUTHORIZE_ENDPOINT = 'http://accounts.spotify.com/authorize';
-    const REDIRECT_URL_AFTER_LOGIN = 'http://localhost:3000/';
+    const REDIRECT_URL_AFTER_LOGIN = 'https://master.d2f0ydw6985hqy.amplifyapp.com/';
     const SCOPES = [
         'playlist-modify-private',
         'playlist-modify-public',
